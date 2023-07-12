@@ -205,11 +205,16 @@ body{
 	display: flex;
 }
 .card__button {
+	opacity: 1;
 	margin-bottom: 40px;
 	padding: 9px 33px;
 	border-radius: 32px;
 	color: #2C2B2B;
 	background-color: #FFDB63;
+	transition: opacity 0.2s ease-in;
+}
+.card__button:hover{
+	opacity: 0.7;
 }
 .card__title {
 	margin-bottom: 18px;
